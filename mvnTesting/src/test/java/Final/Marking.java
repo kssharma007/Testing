@@ -17,11 +17,11 @@ public class Marking
 		wd.manage().window().maximize();
 		wd.get("https://mail.google.com");
 		WebElement w1= wd.findElement(By.name("Email"));
-		w1.sendKeys("kingufkings");
+		w1.sendKeys("----------");
 		wd.findElement(By.id("next")).click();
 		Thread.sleep(5000);
 		WebElement w2= wd.findElement(By.xpath("//input[@name='Passwd']"));
-		w2.sendKeys("zlatanibrahmovic");
+		w2.sendKeys("-------------");
 		WebElement w3= wd.findElement(By.xpath("//label/input[@id='PersistentCookie']"));
 		w3.click();
 		wd.findElement(By.id("signIn")).click();
