@@ -1,8 +1,0 @@
-<suite name="Final">
-<test name="tst_sanity_ff">
-<parameter name="browser" value="firefox" />
-<classes>
-<class name="Final.Test1"/>
-</classes>
-</test>
-</suite>
